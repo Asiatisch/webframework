@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Bootstraps 1.1</title>
+
+		<!-- CSS only -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+			crossorigin="anonymous"
+		/>
+	</head>
+	<body>
+		<h1 class="text-danger mx-auto w-50">Shems Website</h1>
+		<h2 class="mx-auto w-50">This is a sub heading</h2>
+		<hr />
+		<!--  P*2>lorem10 -->
+		<p>
+			Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore
+			eveniet repudiandae saepe! Doloribus possimus nemo illo impedit minus aut
+			consectetur cumque ipsam ipsa facere, quisquam rerum exercitationem quia
+			cum aperiam.
+		</p>
+
+		<p>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, rem ab sed
+			aut cumque asperiores earum cum voluptatibus! Nostrum praesentium
+			necessitatibus assumenda est laborum temporibus nesciunt nisi vero
+			repudiandae ex.
+		</p>
+		<!-- ul>li*5>a{link} -->
+		<ul class="bg-dark text-warning">
+			<li><a href="#" class="text-secondary">links</a></li>
+			<li><a href="#">links</a></li>
+			<li><a href="#">links</a></li>
+			<li><a href="#">links</a></li>
+			<li><a href="#">links</a></li>
+		</ul>
+		<h1>h1. Bootstrap heading</h1>
+		<h2>h2. Bootstrap heading</h2>
+		<h3>h3. Bootstrap heading</h3>
+		<h4>h4. Bootstrap heading</h4>
+		<h5>h5. Bootstrap heading</h5>
+		<h6>h6. Bootstrap heading</h6>
+		<h3>
+			Fancy display heading
+			<small class="text-muted">With faded secondary text</small>
+		</h3>
+		<!-- Inline text elements -->
+		<p>You can use the mark tag to <mark>highlight</mark> text.</p>
+		<p><del>This line of text is meant to be treated as deleted text.</del></p>
+		<p>
+			<s>This line of text is meant to be treated as no longer accurate.</s>
+		</p>
+		<p>
+			<ins
+				>This line of text is meant to be treated as an addition to the
+				document.</ins
+			>
+		</p>
+		<p><u>This line of text will render as underlined.</u></p>
+		<p>
+			<small>This line of text is meant to be treated as fine print.</small>
+		</p>
+		<p><strong>This line rendered as bold text.</strong></p>
+		<p><em>This line rendered as italicized text.</em></p>
+		<!--  Abbreviations -->
+		<p><abbr title="attribute">attr</abbr></p>
+		<p>
+			<abbr title="HyperText Markup Language" class="initialism">HTML</abbr>
+		</p>
+		<!--  alignment -->
+		<figure class="text-center">
+			<blockquote class="blockquote">
+				<p>A well-known quote, contained in a blockquote element.</p>
+			</blockquote>
+			<figcaption class="blockquote-footer">
+				Someone famous in <cite title="Source Title">Source Title</cite>
+			</figcaption>
+		</figure>
+		<hr />
+		<!--  Colours -->
+		<figure class="text-center">
+			<blockquote class="blockquote">
+				<p>Colours</p>
+			</blockquote>
+		</figure>
+		<li class="mx-auto w-50">
+			<p class="text-primary">.text-primary</p>
+			<p class="text-secondary">.text-secondary</p>
+			<p class="text-success">.text-success</p>
+			<p class="text-danger">.text-danger</p>
+			<p class="text-warning bg-dark">.text-warning</p>
+			<p class="text-info bg-dark">.text-info</p>
+			<p class="text-light bg-dark">.text-light</p>
+			<p class="text-dark">.text-dark</p>
+			<p class="text-body">.text-body</p>
+			<p class="text-muted">.text-muted</p>
+			<p class="text-white bg-dark">.text-white</p>
+			<p class="text-black-50">.text-black-50</p>
+			<p class="text-white-50 bg-dark">.text-white-50</p>
+		</li>
+
+		<hr />
+		<h1 class="text-danger mx-auto w-50">dropdown - button</h1>
+		<div class="dropdown mx-auto w-50">
+			<button
+				class="btn btn-primary dropdown-toggle"
+				type="button"
+				data-bs-toggle="dropdown"
+				aria-expanded="false"
+			>
+				Dropdown
+			</button>
+			<ul class="dropdown-menu">
+				<li><a class="dropdown-item" href="#">Dropdown item</a></li>
+				<li><a class="dropdown-item" href="#">Dropdown item</a></li>
+				<li><a class="dropdown-item" href="#">Dropdown item</a></li>
+			</ul>
+		</div>
+		<hr />
+		<h2>Borders</h2>
+		<div class="mb-4">
+			<label for="exampleFormControlInput1" class="form-label"
+				>Email address</label
+			>
+			<input
+				type="email"
+				class="form-control border-success"
+				id="exampleFormControlInput1"
+				placeholder="name@example.com"
+			/>
+		</div>
+
+		<div class="h4 pb-2 mb-4 text-danger border-bottom border-danger">
+			Dangerous heading
+		</div>
+
+		<div
+			class="p-3 bg-info bg-opacity-10 border border-info border-start-0 rounded-end"
+		>
+			Changing border color and width
+		</div>
+		<!-- JavaScript Bundle with Popper -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
